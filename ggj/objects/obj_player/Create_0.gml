@@ -3,4 +3,4 @@ hsp = 0;
 vsp = 0;
 movespeed = 10;
 grav = 1;
-jumpspeed = 10;
+jumpspeed = 30;

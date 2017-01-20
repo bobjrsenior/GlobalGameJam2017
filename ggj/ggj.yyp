@@ -381,9 +381,9 @@
             }
         },
         {
-            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Key": "bcf5f4e2-f5be-4402-9800-4c7e1e16cf6c",
             "Value": {
-                "id": "bbde6b08-df79-4957-b13e-4e501040e6d9",
+                "id": "e613ed43-0bb7-4096-827d-ba33e8229f8c",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -395,27 +395,8 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "options\\linux\\options_linux.yy",
-                "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
-            "Value": {
-                "id": "88df075d-1cea-41de-9e1a-8b5f67c444e9",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "options\\mac\\options_mac.yy",
-                "resourceType": "GMMacOptions"
+                "resourcePath": "objects\\Audio_Pitch_Checker\\Audio_Pitch_Checker.yy",
+                "resourceType": "GMObject"
             }
         },
         {
