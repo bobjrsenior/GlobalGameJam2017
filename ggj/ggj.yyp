@@ -474,6 +474,25 @@
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "cc99334a-ae6b-4d01-b9ed-c0b95df24b68",
+            "Value": {
+                "id": "1ed9902c-05c9-4ccd-8706-5df98981844a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_solid\\obj_solid.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [

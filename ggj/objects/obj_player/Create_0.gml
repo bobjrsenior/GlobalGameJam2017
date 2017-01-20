@@ -1,5 +1,6 @@
 ///Creation Vars
 hsp = 0;
 vsp = 0;
-grav = 0;
-movespeed = 5;
+movespeed = 10;
+grav = 1;
+jumpspeed = 10;
