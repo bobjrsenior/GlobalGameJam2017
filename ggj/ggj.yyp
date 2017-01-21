@@ -1766,6 +1766,25 @@
                 "resourcePath": "rooms\\Tut_Room_5\\Tut_Room_5.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "de57b9f9-522d-494e-81ef-2a9df4713902",
+            "Value": {
+                "id": "c3ba1cef-f9c8-4525-99d3-d5cbeee4cbf5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\\Level_GGJ\\Level_GGJ.yy",
+                "resourceType": "GMRoom"
+            }
         }
     ],
     "room_order": [
@@ -1778,7 +1797,8 @@
         "7d6ed6b2-4ab9-4357-81d2-c2bdcabfe754",
         "4515cd7d-8cab-4e68-858c-8716fc945bce",
         "0e3ae9e0-4a2d-49aa-b130-16802bbc5335",
-        "2df56760-0124-4a20-a585-1c675f042db9"
+        "2df56760-0124-4a20-a585-1c675f042db9",
+        "de57b9f9-522d-494e-81ef-2a9df4713902"
     ],
     "script_order": [
         "7953c5c5-4b02-4578-81e8-669796fc9c69",
