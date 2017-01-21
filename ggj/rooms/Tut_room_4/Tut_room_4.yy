@@ -154,14 +154,14 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_160EE9F2",
-                    "x": 896.5336,
+                    "x": 768,
                     "y": 448.889954,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
                     },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
+                    "creationCodeFile": "InstanceCreationCode_inst_160EE9F2.gml",
+                    "creationCodeType": ".gml",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_160EE9F2",
                     "objId": "d1d0d76e-9e5b-4fd5-b725-0ef967213598",
