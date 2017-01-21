@@ -1101,6 +1101,44 @@
                 "resourcePath": "objects\\obj_drift\\obj_drift.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "7953c5c5-4b02-4578-81e8-669796fc9c69",
+            "Value": {
+                "id": "f61b50f6-014f-4791-a787-bc2eaa7abb27",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\scr_var\\scr_var.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5dad2def-4fe9-4783-8a39-c1da57c1cc05",
+            "Value": {
+                "id": "444c321a-6abb-4939-ae68-564541ed0a74",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\\scr_tele\\scr_tele.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "room_order": [
@@ -1108,7 +1146,8 @@
         "aa82dac8-38df-4a95-bf09-b73d5a3065e1"
     ],
     "script_order": [
-        
+        "7953c5c5-4b02-4578-81e8-669796fc9c69",
+        "5dad2def-4fe9-4783-8a39-c1da57c1cc05"
     ],
     "tutorial": ""
 }

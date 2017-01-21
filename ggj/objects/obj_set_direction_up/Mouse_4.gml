@@ -3,12 +3,6 @@ if global.waiting {
 		m_direction = 3 * pi / 2;
 	}
 
-
-	global.loc_var += 1 + global.dir_var;
-	global.dir_var = 0;
-	
-	if global.loc_var > 3 {
-		global.loc_var = 3;
-	}
+	scr_var(2);
 	global.waiting = false;
 }

@@ -3,11 +3,6 @@ if global.waiting {
 		move_multiplier = 0;
 	}
 	
-	global.dir_var += 1 + global.spd_var;
-	global.spd_var = 0;
-	
-	if global.dir_var > 3 {
-		global.dir_var = 3;
-	}
+	scr_var(1);
 	global.waiting = false;
 }
