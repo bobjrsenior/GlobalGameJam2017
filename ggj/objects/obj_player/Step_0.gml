@@ -22,11 +22,6 @@ else if key_down {
 vsp = movespeed * sin(m_direction);
 hsp = movespeed * cos(m_direction);
 
-
-if place_meeting(x,y+1,obj_solid) {
-	//vsp = key_jump * -jumpspeed;
-}
-
 if place_meeting(x+hsp,y,obj_solid) {
 	while !place_meeting(x+sign(hsp),y,obj_solid) {
 		x += sign(hsp);
