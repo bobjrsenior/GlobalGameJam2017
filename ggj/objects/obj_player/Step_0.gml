@@ -5,7 +5,7 @@ key_up = keyboard_check(ord("W")) || keyboard_check(vk_up);
 key_down = keyboard_check(ord("S")) || keyboard_check(vk_down);
 
 // Change direction based on what is pressed
-if key_right {
+/*if key_right {
 	m_direction = 0
 }
 else if key_up {
@@ -16,26 +16,29 @@ else if key_left {
 }
 else if key_down {
 	m_direction = pi / 2;
-}
+}*/
 
-// Set speed based on movement direction
-vsp = movespeed * sin(m_direction);
-hsp = movespeed * cos(m_direction);
 
-if place_meeting(x+hsp,y,obj_solid) {
-	while !place_meeting(x+sign(hsp),y,obj_solid) {
-		x += sign(hsp);
+if global.play {
+	// Set speed based on movement direction
+	vsp = movespeed * sin(m_direction);
+	hsp = movespeed * cos(m_direction);
+
+	if place_meeting(x+hsp,y,obj_solid) {
+		while !place_meeting(x+sign(hsp),y,obj_solid) {
+			x += sign(hsp);
+		}
+		hsp = 0;
 	}
-	hsp = 0;
-}
 
-x += hsp;
+	x += hsp;
 
-if place_meeting(x,y+vsp,obj_solid) {
-	while !place_meeting(x,y+sign(vsp),obj_solid) {
-		y += sign(vsp);
+	if place_meeting(x,y+vsp,obj_solid) {
+		while !place_meeting(x,y+sign(vsp),obj_solid) {
+			y += sign(vsp);
+		}
+		vsp = 0;
 	}
-	vsp = 0;
-}
 
-y += vsp;
+	y += vsp;
+}
