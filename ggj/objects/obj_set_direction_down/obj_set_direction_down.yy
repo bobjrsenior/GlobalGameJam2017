@@ -13,6 +13,16 @@
             "enumb": 4,
             "eventtype": 6,
             "m_owner": "45840692-fd56-4f8d-8981-8ae8bab91c9a"
+        },
+        {
+            "id": "8b4c8ae1-83de-4d08-bae0-18c7359b34ee",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "45840692-fd56-4f8d-8981-8ae8bab91c9a"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,6 +41,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "2d8d0e79-778f-42ba-8127-99064c286908",
+    "spriteId": "dbdaa6c6-12ed-4770-85a2-b424d866b9d1",
     "visible": true
 }

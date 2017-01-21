@@ -3,5 +3,11 @@ if global.waiting {
 		m_direction = 0;
 	}
 
+	global.loc_var += 1 + global.dir_var;
+	global.dir_var = 0;
+	
+	if global.loc_var > 3 {
+		global.loc_var = 3;
+	}
 	global.waiting = false;
 }
