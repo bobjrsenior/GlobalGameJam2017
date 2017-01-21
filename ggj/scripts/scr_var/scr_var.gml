@@ -34,14 +34,14 @@ if move_type != 1 {
 			with(obj_player){
 				move_multiplier = irandom_range(1, 3);
 			}
-			global.loc_var = 0;
+			global.spd_var = 0;
 		}
 	}
 	else if global.spd_var == 3 {
 		with(obj_player){
 			move_multiplier = irandom_range(1, 3);
 		}
-		global.loc_var = 0;
+		global.spd_var = 0;
 	}
 }
 else{
@@ -60,14 +60,14 @@ if move_type != 2 {
 			with(obj_player){
 				m_direction = irandom(4) * (pi / 2);
 			}
-			global.loc_var = 0;
+			global.dir_var = 0;
 		}
 	}
 	else if global.dir_var == 3 {
 		with(obj_player){
 			m_direction = irandom(4) * (pi / 2);
 		}
-		global.loc_var = 0;
+		global.dir_var = 0;
 	}
 }
 else{
