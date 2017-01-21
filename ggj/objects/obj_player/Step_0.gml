@@ -1,18 +1,30 @@
 ///Movement
-key_right = keyboard_check(ord("D"));
-key_left = -keyboard_check(ord("A"));
-key_jump = keyboard_check(ord("W"));
+key_right = keyboard_check(ord("D")) || keyboard_check(vk_right);
+key_left = keyboard_check(ord("A")) || keyboard_check(vk_left);
+key_up = keyboard_check(ord("W")) || keyboard_check(vk_up);
+key_down = keyboard_check(ord("S")) || keyboard_check(vk_down);
 
-move = key_right + key_left;
-
-hsp = move * movespeed;
-
-if vsp < 20 {
-	vsp += grav;
+// Change direction based on what is pressed
+if key_right {
+	m_direction = 0
+}
+else if key_up {
+	m_direction = 3 * pi / 2;
+}
+else if key_left {
+	m_direction = pi;
+}
+else if key_down {
+	m_direction = pi / 2;
 }
 
+// Set speed based on movement direction
+vsp = movespeed * sin(m_direction);
+hsp = movespeed * cos(m_direction);
+
+
 if place_meeting(x,y+1,obj_solid) {
-	vsp = key_jump * -jumpspeed;
+	//vsp = key_jump * -jumpspeed;
 }
 
 if place_meeting(x+hsp,y,obj_solid) {

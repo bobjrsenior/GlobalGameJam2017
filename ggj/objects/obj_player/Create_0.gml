@@ -2,5 +2,8 @@
 hsp = 0;
 vsp = 0;
 movespeed = 10;
-grav = 1;
-jumpspeed = 30;
+// Flase if 'teleporting'?
+collidable = true;
+
+// Which way to go
+m_direction = 0
