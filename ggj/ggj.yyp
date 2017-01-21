@@ -381,6 +381,25 @@
             }
         },
         {
+            "Key": "3d2f66fd-71f3-4807-a161-4f22ee776be9",
+            "Value": {
+                "id": "86e82104-d5a3-4544-8bcf-87f61f3bea69",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_auido_controller\\obj_auido_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bcf5f4e2-f5be-4402-9800-4c7e1e16cf6c",
             "Value": {
                 "id": "e613ed43-0bb7-4096-827d-ba33e8229f8c",
@@ -395,7 +414,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\Audio_Pitch_Checker\\Audio_Pitch_Checker.yy",
+                "resourcePath": "objects\\obj_audio_pitch_checker\\obj_audio_pitch_checker.yy",
                 "resourceType": "GMObject"
             }
         },
