@@ -32,6 +32,7 @@ if global.play {
 		hsp = -hsp;
 		m_direction += pi;
 		scr_add_var_to_min();
+		audio_play_sound(snd_wall_hit, 0, false);
 	}
 
 	x += hsp;
@@ -43,6 +44,7 @@ if global.play {
 		vsp = -vsp;
 		m_direction += pi;
 		scr_add_var_to_min();
+		audio_play_sound(snd_wall_hit, 0, false);
 	}
 
 	y += vsp;
