@@ -381,9 +381,9 @@
             }
         },
         {
-            "Key": "3d2f66fd-71f3-4807-a161-4f22ee776be9",
+            "Key": "18ac347d-4c95-4b74-bfe7-123633ee234b",
             "Value": {
-                "id": "86e82104-d5a3-4544-8bcf-87f61f3bea69",
+                "id": "3f229579-9428-4002-8179-3790dc55753e",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -395,14 +395,14 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\obj_auido_controller\\obj_auido_controller.yy",
+                "resourcePath": "objects\\obj_locBar\\obj_locBar.yy",
                 "resourceType": "GMObject"
             }
         },
         {
-            "Key": "bcf5f4e2-f5be-4402-9800-4c7e1e16cf6c",
+            "Key": "7cd5fa84-553a-4313-bdcd-7463973de2f6",
             "Value": {
-                "id": "e613ed43-0bb7-4096-827d-ba33e8229f8c",
+                "id": "ae71c24c-c57a-48b3-b15b-a03a4f22ce2a",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -414,8 +414,8 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\\obj_audio_pitch_checker\\obj_audio_pitch_checker.yy",
-                "resourceType": "GMObject"
+                "resourcePath": "sprites\\sprite_2\\sprite_2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -491,6 +491,101 @@
                     "default"
                 ],
                 "resourcePath": "objects\\obj_solid\\obj_solid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "438653cc-6fb9-4dda-a3db-64480e2cb144",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "eaa61427-451b-4f64-b488-d81cc2ccaeb4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a936a4eb-4b3d-4784-a86b-18c7d613e275",
+            "Value": {
+                "id": "f2876891-a5c5-4e7e-b320-472e5f7ebb4e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\\snd_music\\snd_music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "260d30f8-1b0f-47b9-a336-87a71ba989c0",
+            "Value": {
+                "id": "0834e172-4965-445d-ad71-4fca790fded6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_spdBar\\obj_spdBar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2591a879-27f9-4763-9814-f802c910f1ea",
+            "Value": {
+                "id": "03240d8d-2369-4050-b9d4-9c7844a82eef",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_dirBar\\obj_dirBar.yy",
                 "resourceType": "GMObject"
             }
         }
