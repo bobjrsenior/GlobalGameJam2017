@@ -1,2 +1,0 @@
-///Creation
-spd = 0;
