@@ -6,9 +6,9 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 63,
+    "bbox_bottom": 59,
     "bbox_left": 0,
-    "bbox_right": 63,
+    "bbox_right": 59,
     "bbox_top": 0,
     "bboxmode": 1,
     "colkind": 1,
@@ -191,7 +191,7 @@
             ]
         }
     ],
-    "height": 64,
+    "height": 60,
     "layers": [
         {
             "id": "e753cea2-b9be-4a97-897c-a4e6ff182ede",
@@ -211,7 +211,7 @@
     "swatchColours": null,
     "textureGroup": 0,
     "type": 0,
-    "width": 64,
-    "xorig": 32,
-    "yorig": 32
+    "width": 60,
+    "xorig": 30,
+    "yorig": 30
 }

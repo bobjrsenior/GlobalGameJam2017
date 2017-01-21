@@ -24,8 +24,9 @@ if global.play {
 	vsp = movespeed * move_multiplier * sin(m_direction);
 	hsp = movespeed * move_multiplier * cos(m_direction);
 
-	if place_meeting(x+hsp,y,obj_solid) {
-		while !place_meeting(x+sign(hsp),y,obj_solid) {
+
+	if place_meeting(x+hsp,y,obj_solid) || place_meeting(x+hsp,y,obj_fmc_hor) || place_meeting(x+hsp,y,obj_fmc_vert){
+		while !place_meeting(x+sign(hsp),y,obj_solid) && !place_meeting(x+sign(hsp),y,obj_fmc_hor) && !place_meeting(x+sign(hsp),y,obj_fmc_vert) {
 			x += sign(hsp);
 		}
 		hsp = -hsp;
@@ -35,8 +36,8 @@ if global.play {
 
 	x += hsp;
 
-	if place_meeting(x,y+vsp,obj_solid) {
-		while !place_meeting(x,y+sign(vsp),obj_solid) {
+	if place_meeting(x,y+vsp,obj_solid) || place_meeting(x,y+vsp,obj_fmc_hor) || place_meeting(x,y+vsp,obj_fmc_vert){
+		while !place_meeting(x,y+sign(vsp),obj_solid) && !place_meeting(x,y+sign(vsp),obj_fmc_hor) && !place_meeting(x,y+sign(vsp),obj_fmc_vert){
 			y += sign(vsp);
 		}
 		vsp = -vsp;
