@@ -1082,6 +1082,25 @@
                 "resourcePath": "objects\\obj_spd_var\\obj_spd_var.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "c7b48616-cd60-45db-a671-8b00dd9a4375",
+            "Value": {
+                "id": "ac23f7e4-e0f6-4513-ba5c-6a953990fb7f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_drift\\obj_drift.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
