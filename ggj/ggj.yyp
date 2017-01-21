@@ -1671,6 +1671,44 @@
                 "resourcePath": "sprites\\spr_portal\\spr_portal.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "506ed858-ff0a-4f91-87b3-bce2fe3803a4",
+            "Value": {
+                "id": "d139e111-93c8-4e38-9552-5f373bfe7d81",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_cur_spd\\spr_cur_spd.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d93f83d8-a566-48a6-922e-95c4c015435a",
+            "Value": {
+                "id": "d9b0072e-bf92-4e43-ae5a-24d0d7846bd6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_cur_speed\\obj_cur_speed.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
