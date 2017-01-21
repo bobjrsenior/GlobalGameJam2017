@@ -21,14 +21,16 @@ else if key_down {
 
 if global.play {
 	// Set speed based on movement direction
-	vsp = movespeed * move_multiplier* sin(m_direction);
-	hsp = movespeed * move_multiplier* cos(m_direction);
+	vsp = movespeed * move_multiplier * sin(m_direction);
+	hsp = movespeed * move_multiplier * cos(m_direction);
 
 	if place_meeting(x+hsp,y,obj_solid) {
 		while !place_meeting(x+sign(hsp),y,obj_solid) {
 			x += sign(hsp);
 		}
-		hsp = 0;
+		hsp = -hsp;
+		m_direction += pi;
+		scr_add_var_to_min();
 	}
 
 	x += hsp;
@@ -37,8 +39,29 @@ if global.play {
 		while !place_meeting(x,y+sign(vsp),obj_solid) {
 			y += sign(vsp);
 		}
-		vsp = 0;
+		vsp = -vsp;
+		m_direction += pi;
+		scr_add_var_to_min();
 	}
 
 	y += vsp;
+}
+else{
+	if x % 64 != 0 {
+		if x % 64 > 31 {
+			x += (64 - x % 64);
+		}
+		else{
+			x -= x % 64;
+		}
+	}
+	
+	if y % 64 != 0 {
+		if y % 64 > 31 {
+			y += (64 - y % 64);
+		}
+		else{
+			y -= y % 64;
+		}
+	}
 }
