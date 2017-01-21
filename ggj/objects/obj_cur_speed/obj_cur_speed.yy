@@ -5,7 +5,7 @@
     "name": "obj_cur_speed",
     "eventList": [
         {
-            "id": "844a0d7a-dcca-4a80-83ee-5f56d98c1ff3",
+            "id": "90f4f2a8-5a14-48c2-aeee-37fb6b4b1709",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -31,6 +31,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "506ed858-ff0a-4f91-87b3-bce2fe3803a4",
+    "spriteId": "ccf6f842-d217-453b-b709-076607dfa75a",
     "visible": true
 }

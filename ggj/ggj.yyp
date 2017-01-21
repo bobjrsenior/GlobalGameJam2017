@@ -1823,9 +1823,48 @@
                 "resourcePath": "rooms\\room_level_6\\room_level_6.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "ccf6f842-d217-453b-b709-076607dfa75a",
+            "Value": {
+                "id": "8816c71e-8561-4c03-9b74-36c3724345ce",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_cur_spd\\spr_cur_spd.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d93f83d8-a566-48a6-922e-95c4c015435a",
+            "Value": {
+                "id": "991b5d1a-3dc7-44dc-8b5a-027bfb9e4cc6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_cur_speed\\obj_cur_speed.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
+        "a24ae712-8d72-4db4-9bdf-8b06497bde05",
         "de57b9f9-522d-494e-81ef-2a9df4713902",
         "091255f3-a585-41a1-ac67-c4b9183ded81",
         "cea4e0ca-1aee-42b4-9197-3dd536ee231c",
@@ -1837,8 +1876,7 @@
         "4515cd7d-8cab-4e68-858c-8716fc945bce",
         "0e3ae9e0-4a2d-49aa-b130-16802bbc5335",
         "2df56760-0124-4a20-a585-1c675f042db9",
-        "fbbf655f-aeb2-44fa-8421-8040962abbe8",
-        "a24ae712-8d72-4db4-9bdf-8b06497bde05"
+        "fbbf655f-aeb2-44fa-8421-8040962abbe8"
     ],
     "script_order": [
         "7953c5c5-4b02-4578-81e8-669796fc9c69",
