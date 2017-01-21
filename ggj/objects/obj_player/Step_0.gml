@@ -21,8 +21,8 @@ else if key_down {
 
 if global.play {
 	// Set speed based on movement direction
-	vsp = movespeed * sin(m_direction);
-	hsp = movespeed * cos(m_direction);
+	vsp = movespeed * move_multiplier* sin(m_direction);
+	hsp = movespeed * move_multiplier* cos(m_direction);
 
 	if place_meeting(x+hsp,y,obj_solid) {
 		while !place_meeting(x+sign(hsp),y,obj_solid) {
