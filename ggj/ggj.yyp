@@ -2260,6 +2260,63 @@
                 "resourcePath": "objects\\obj_logo\\obj_logo.yy",
                 "resourceType": "GMObject"
             }
+        },
+        {
+            "Key": "31a17b6e-79ba-4e59-9e5a-92e7fb8f3d42",
+            "Value": {
+                "id": "47593379-cb53-4e41-a012-178bf38762bc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\\You_Win\\You_Win.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f602b351-b85e-435f-a3ef-85bc07882770",
+            "Value": {
+                "id": "56c6a11e-9702-4d1b-b192-c0c431de5829",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\\spr_you_win\\spr_you_win.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "310b501c-3276-4836-a2a2-d39712c8a5bd",
+            "Value": {
+                "id": "1441c706-e0a6-40d4-8c7e-678cf498d914",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_you_win\\obj_you_win.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "room_order": [
@@ -2278,6 +2335,7 @@
         "f95b942e-cf79-4258-8e3d-0724a7c191b2",
         "6ea1b620-680d-42b7-bcda-a7fe82662941",
         "de57b9f9-522d-494e-81ef-2a9df4713902",
+        "31a17b6e-79ba-4e59-9e5a-92e7fb8f3d42",
         "ac86cda9-2c66-4589-90fd-c6a3853f929c",
         "0e0f0cf1-b49e-41d6-87fb-cc0fcf086b00",
         "18f30017-c6d9-43d4-b814-5e7d14ae77e0",
