@@ -1863,9 +1863,15 @@
             }
         },
         {
+<<<<<<< HEAD
+            "Key": "24a75df8-176b-44a4-8e7d-88bf4373a426",
+            "Value": {
+                "id": "48e7b4ac-ade8-4c24-b5b6-02ccc721a4aa",
+=======
             "Key": "a289d312-b4d3-4463-bb03-d2c6591b7479",
             "Value": {
                 "id": "4d5a88d0-1b08-4b68-bf03-bceb949ec26b",
+>>>>>>> 7728a6f3ac4616b3b1b47c0c02603acad6073ec4
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -1877,6 +1883,35 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
+<<<<<<< HEAD
+                "resourcePath": "rooms\\Main_Menu\\Main_Menu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b57d721d-e715-41a6-ac0f-3ce89221dc01",
+            "Value": {
+                "id": "6320ad8b-5ad6-4867-8ef0-c5491df05ad2",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\\obj_level_chooser_button\\obj_level_chooser_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "adb44ccd-f91d-408f-a92d-e76590ac37aa",
+            "Value": {
+                "id": "00228879-53e6-49fd-b944-74e80748d977",
+=======
                 "resourcePath": "views\\a24ae712-8d72-4db4-9bdf-8b06497bde05-room.yy",
                 "resourceType": "GMFolder"
             }
@@ -1885,6 +1920,7 @@
             "Key": "d5cae063-d713-423c-a9ab-a5dc305ab44c",
             "Value": {
                 "id": "27ae5335-09cb-415e-8e6c-18ca563daa26",
+>>>>>>> 7728a6f3ac4616b3b1b47c0c02603acad6073ec4
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -1896,52 +1932,15 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\\Level_foilage\\Level_foilage.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "adb44ccd-f91d-408f-a92d-e76590ac37aa",
-            "Value": {
-                "id": "277f486c-acd0-44b7-8b06-5ca53cb54cb7",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
+<<<<<<< HEAD
                 "resourcePath": "sprites\\spr_dir_indicator\\spr_dir_indicator.yy",
                 "resourceType": "GMSprite"
             }
         },
         {
-            "Key": "441367b6-1215-49d8-bd74-103055308744",
-            "Value": {
-                "id": "8430cdf5-534b-4f8f-b1cf-cbf84ebd38ee",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\\obj_main_menu_controller\\obj_main_menu_controller.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b13c160e-ea42-4d88-b06a-624786d48d00",
             "Value": {
-                "id": "778384d6-2558-497f-8762-8717613f182b",
+                "id": "1e101f9b-1298-45b5-8e4a-02a3795d0a05",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -1958,9 +1957,9 @@
             }
         },
         {
-            "Key": "744001b5-468c-42c5-8c8e-5c477845fd75",
+            "Key": "441367b6-1215-49d8-bd74-103055308744",
             "Value": {
-                "id": "c97f28e5-7856-45e5-896d-9cd56f75d0f9",
+                "id": "e29fea0c-04ed-4420-a0d1-2dda590623e8",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -1972,35 +1971,25 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\\Main_Menu\\Main_Menu.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "b57d721d-e715-41a6-ac0f-3ce89221dc01",
-            "Value": {
-                "id": "d9f8c013-f620-4778-9168-cbd5d824af28",
-                "modelName": "GMResourceInfo",
-                "mvc": "1.0",
-                "configDeltaFiles": [
-                    
-                ],
-                "configDeltas": [
-                    
-                ],
-                "resourceCreationConfigs": [
-                    "default"
-                ],
-                "resourcePath": "objects\\obj_level_chooser_button\\obj_level_chooser_button.yy",
+                "resourcePath": "objects\\obj_main_menu_controller\\obj_main_menu_controller.yy",
                 "resourceType": "GMObject"
+=======
+                "resourcePath": "rooms\\Level_foilage\\Level_foilage.yy",
+                "resourceType": "GMRoom"
+>>>>>>> 7728a6f3ac4616b3b1b47c0c02603acad6073ec4
             }
         }
     ],
     "room_order": [
-        "744001b5-468c-42c5-8c8e-5c477845fd75",
+<<<<<<< HEAD
+        "24a75df8-176b-44a4-8e7d-88bf4373a426",
+        "a24ae712-8d72-4db4-9bdf-8b06497bde05",
+        "de57b9f9-522d-494e-81ef-2a9df4713902",
+=======
         "7d6ed6b2-4ab9-4357-81d2-c2bdcabfe754",
         "4515cd7d-8cab-4e68-858c-8716fc945bce",
         "0e3ae9e0-4a2d-49aa-b130-16802bbc5335",
+>>>>>>> 7728a6f3ac4616b3b1b47c0c02603acad6073ec4
         "091255f3-a585-41a1-ac67-c4b9183ded81",
         "2df56760-0124-4a20-a585-1c675f042db9",
         "cea4e0ca-1aee-42b4-9197-3dd536ee231c",

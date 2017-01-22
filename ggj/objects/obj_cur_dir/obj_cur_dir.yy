@@ -5,7 +5,7 @@
     "name": "obj_cur_dir",
     "eventList": [
         {
-            "id": "813e5779-9f39-441e-896a-e0af47fc4c7f",
+            "id": "1afd212c-bdf3-4773-a97d-fd85f441b643",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

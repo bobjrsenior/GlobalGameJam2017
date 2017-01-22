@@ -5,7 +5,7 @@
     "name": "obj_main_menu_controller",
     "eventList": [
         {
-            "id": "84eb6196-add1-461e-b934-990b3d8088de",
+            "id": "f9a502cd-99ba-4d36-8b1c-2818755f8a6a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "441367b6-1215-49d8-bd74-103055308744"
         },
         {
-            "id": "5dbb7049-3667-4758-9d77-c74256604da6",
+            "id": "ef43c821-be00-4302-bcb7-e3de84ce72d6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

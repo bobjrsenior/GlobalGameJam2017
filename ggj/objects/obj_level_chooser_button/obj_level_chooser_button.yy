@@ -5,7 +5,7 @@
     "name": "obj_level_chooser_button",
     "eventList": [
         {
-            "id": "81238b03-480f-4833-adba-d677eb29b97a",
+            "id": "b05c21a3-17cd-48c2-8ec7-c19bbe644098",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "b57d721d-e715-41a6-ac0f-3ce89221dc01"
         },
         {
-            "id": "f2496854-7593-48f0-9676-584a45394bd7",
+            "id": "b855be15-eea2-4c74-9fa4-7b5490a74268",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
