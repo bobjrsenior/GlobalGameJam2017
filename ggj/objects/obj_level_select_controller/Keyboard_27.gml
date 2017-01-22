@@ -1,2 +1,2 @@
 /// @description Insert description here
-game_end();
+room_goto(0);

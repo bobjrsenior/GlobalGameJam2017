@@ -4,6 +4,8 @@ global.waiting = false;
 global.spd_var = 0;
 global.loc_var = 0;
 global.dir_var = 0;
+global.view_init_x = view_get_xport(0);
+global.view_init_y = view_get_yport(0);
 turn_step_count = 32;
 play_countdown = turn_step_count;
 window_set_fullscreen(true);
