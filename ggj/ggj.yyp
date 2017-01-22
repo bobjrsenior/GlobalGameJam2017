@@ -2032,6 +2032,25 @@
                 "resourcePath": "rooms\\Level_windows\\Level_windows.yy",
                 "resourceType": "GMRoom"
             }
+        },
+        {
+            "Key": "6ea1b620-680d-42b7-bcda-a7fe82662941",
+            "Value": {
+                "id": "d8d9c9f3-735e-46a5-9897-c8cb6e24c400",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\\Level_planet_end\\Level_planet_end.yy",
+                "resourceType": "GMRoom"
+            }
         }
     ],
     "room_order": [
@@ -2047,6 +2066,7 @@
         "a24ae712-8d72-4db4-9bdf-8b06497bde05",
         "c47b403d-72f6-4958-b110-886c755d1f8a",
         "f95b942e-cf79-4258-8e3d-0724a7c191b2",
+        "6ea1b620-680d-42b7-bcda-a7fe82662941",
         "de57b9f9-522d-494e-81ef-2a9df4713902",
         "ac86cda9-2c66-4589-90fd-c6a3853f929c",
         "0e0f0cf1-b49e-41d6-87fb-cc0fcf086b00",
