@@ -31,6 +31,9 @@ if global.play {
 		}
 		hsp = -hsp;
 		m_direction += pi;
+		if m_direction > 1.75 * pi {
+			m_direction -= 2 * pi;
+		}
 		scr_add_var_to_min();
 		audio_play_sound(snd_wall_hit, 0, false);
 	}
@@ -43,6 +46,9 @@ if global.play {
 		}
 		vsp = -vsp;
 		m_direction += pi;
+		if m_direction > 1.75 * pi {
+			m_direction -= 2 * pi;
+		}
 		scr_add_var_to_min();
 		audio_play_sound(snd_wall_hit, 0, false);
 	}

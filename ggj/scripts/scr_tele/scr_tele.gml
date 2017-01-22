@@ -1,11 +1,13 @@
 ///scr_tele()
 with(obj_player){
-	var new_xPos = x;
-	var new_xPos = y;
+	var xPos = x;
+	var xPos = y;
 
 	var continue_loop = true;
 			
-	while continue_loop {
+	var iterations = 0;
+	
+	while continue_loop && iterations < 10 {
 		var teleport_dir = random(1);
 				
 		// if horizontal teleport
@@ -20,10 +22,14 @@ with(obj_player){
 
 		if xPos != x || yPos != y {
 			continue_loop = place_meeting(xPos, yPos, obj_solid) || place_meeting(xPos, yPos, obj_border);
+			iterations++;
 		}
 	}
 	
 	x = xPos;
 	y = yPos;
+	
+	if !continue_loop {
+		audio_play_sound(snd_teleport, 0, false);
+	}
 }
-audio_play_sound(snd_teleport, 0, false);
