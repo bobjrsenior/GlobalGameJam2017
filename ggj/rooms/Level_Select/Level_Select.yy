@@ -24,8 +24,6 @@
         "0d59afc8-dc66-4a72-8938-20c33252ea5f",
         "0137c3db-3677-4a27-847d-b5ae5c2a6e5c",
         "6b69ccd0-eb5c-4cec-bd10-ebc4adff7e2f",
-        "f8bb0ac4-8143-41fc-adbe-d698774cc539",
-        "707f41ea-40d0-40c0-b18e-acf09dc61b6c",
         "155d24c2-6dc5-4fe2-b585-22651f3b0efd"
     ],
     "layers": [
@@ -405,54 +403,6 @@
                     "creationCodeType": ".gml",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_AF405CD",
-                    "objId": "b57d721d-e715-41a6-ac0f-3ce89221dc01",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
-                {
-                    "id": "f8bb0ac4-8143-41fc-adbe-d698774cc539",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_7386326E",
-                    "x": 1075,
-                    "y": 832,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "InstanceCreationCode_inst_7386326E.gml",
-                    "creationCodeType": ".gml",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_7386326E",
-                    "objId": "b57d721d-e715-41a6-ac0f-3ce89221dc01",
-                    "rotation": 0,
-                    "scaleX": 1,
-                    "scaleY": 1
-                },
-                {
-                    "id": "707f41ea-40d0-40c0-b18e-acf09dc61b6c",
-                    "modelName": "GMRInstance",
-                    "mvc": "1.0",
-                    "ignore": false,
-                    "inheritItemSettings": false,
-                    "m_originalParentID": "00000000-0000-0000-0000-000000000000",
-                    "m_serialiseFrozen": false,
-                    "name": "inst_6223E812",
-                    "x": 1075,
-                    "y": 928,
-                    "IsDnD": false,
-                    "colour": {
-                        "Value": 4294967295
-                    },
-                    "creationCodeFile": "InstanceCreationCode_inst_6223E812.gml",
-                    "creationCodeType": ".gml",
-                    "inheritCode": false,
-                    "name_with_no_file_rename": "inst_6223E812",
                     "objId": "b57d721d-e715-41a6-ac0f-3ce89221dc01",
                     "rotation": 0,
                     "scaleX": 1,
