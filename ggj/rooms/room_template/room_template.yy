@@ -2,7 +2,7 @@
     "id": "ac86cda9-2c66-4589-90fd-c6a3853f929c",
     "modelName": "GMRoom",
     "mvc": "1.0",
-    "name": "room_template",
+    "name": "Room_Template",
     "IsDnD": false,
     "creationCodeFile": "",
     "inheritCode": false,
@@ -58,14 +58,14 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_61CDDDD",
-                    "x": 320,
-                    "y": 448,
+                    "x": 640,
+                    "y": 576,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
                     },
-                    "creationCodeFile": "",
-                    "creationCodeType": "",
+                    "creationCodeFile": "InstanceCreationCode_inst_61CDDDD.gml",
+                    "creationCodeType": ".gml",
                     "inheritCode": false,
                     "name_with_no_file_rename": "inst_61CDDDD",
                     "objId": "d1d0d76e-9e5b-4fd5-b725-0ef967213598",
@@ -106,8 +106,8 @@
                     "m_originalParentID": "00000000-0000-0000-0000-000000000000",
                     "m_serialiseFrozen": false,
                     "name": "inst_6ED0D1F2",
-                    "x": 1216,
-                    "y": 448,
+                    "x": 1088,
+                    "y": 576,
                     "IsDnD": false,
                     "colour": {
                         "Value": 4294967295
