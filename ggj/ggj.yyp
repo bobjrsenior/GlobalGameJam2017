@@ -1478,7 +1478,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\\Level_corona\\Level_corona.yy",
+                "resourcePath": "rooms\\Room_Template\\Room_Template.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -1939,9 +1939,9 @@
             }
         },
         {
-            "Key": "cacc355c-2c59-41c8-9e61-c0a9632e76a5",
+            "Key": "f95b942e-cf79-4258-8e3d-0724a7c191b2",
             "Value": {
-                "id": "4c76a635-fcaf-4bcf-bc59-207d79d77af6",
+                "id": "5021fb28-8e73-4190-9f32-381a74bef138",
                 "modelName": "GMResourceInfo",
                 "mvc": "1.0",
                 "configDeltaFiles": [
@@ -1953,7 +1953,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "rooms\\Room_template\\Room_template.yy",
+                "resourcePath": "rooms\\Level_corona\\Level_corona.yy",
                 "resourceType": "GMRoom"
             }
         }
@@ -1969,12 +1969,12 @@
         "fbbf655f-aeb2-44fa-8421-8040962abbe8",
         "a24ae712-8d72-4db4-9bdf-8b06497bde05",
         "c47b403d-72f6-4958-b110-886c755d1f8a",
-        "ac86cda9-2c66-4589-90fd-c6a3853f929c",
+        "f95b942e-cf79-4258-8e3d-0724a7c191b2",
         "de57b9f9-522d-494e-81ef-2a9df4713902",
+        "ac86cda9-2c66-4589-90fd-c6a3853f929c",
         "0e0f0cf1-b49e-41d6-87fb-cc0fcf086b00",
         "18f30017-c6d9-43d4-b814-5e7d14ae77e0",
-        "5b1b5ced-8a5c-44fb-be91-a61227af67b9",
-        "cacc355c-2c59-41c8-9e61-c0a9632e76a5"
+        "5b1b5ced-8a5c-44fb-be91-a61227af67b9"
     ],
     "script_order": [
         "7953c5c5-4b02-4578-81e8-669796fc9c69",
